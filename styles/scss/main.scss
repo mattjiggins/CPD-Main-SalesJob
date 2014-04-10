@@ -1,23 +1,30 @@
 body {
-	font-family: "Skolar Regular",Palatino,Cambria,"Droid Serif",Georgia,"Times New Roman",Times,serif;
+	font-family:'Trade Gothic Next W01', "Helvetica Neue", Helvetica, Arial;;
 	font-size: 18px;
+	font-weight: 200;
 }
 
 h1, h2, h3, h4, h5, h6, .btn {
-	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial;
+	font-family:'Trade Gothic Next W01', "Helvetica Neue", Helvetica, Arial;;
 }
 
 h1, h2, h4, h5, h6 {
-	font-weight: 700;
-	font-style: normal;
+	color: #002a5c;
+	font-weight: 800;
+	//font-style: normal;
+	text-transform: uppercase;
 }
 h3 {
+	color: #002a5c;
 	font-weight: 300;
-	font-style: normal;
+}
+
+strong {
+	color: #002a5c;
 }
 
 .lead {
-	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial;
+	font-family:'Trade Gothic Next W01', "Helvetica Neue", Helvetica, Arial;;
 	font-weight: 100;
 }
 
@@ -56,6 +63,9 @@ section {
 	&.dark {
 		background: #444;
 		color: #fff;
+		h1, h2, h3, h4, h5, h6 {
+			color: #fff;
+		}
 		a{
 			color: #fff;
 			text-decoration: underline;
@@ -63,11 +73,28 @@ section {
 	}
 }
 
+a.btn {
+	text-decoration: none !important;
+}
+
 
 // SECTIONS
 
 #welcome {
+	.container {
+		padding-top: 20px;
+	}
 	.lead {
 		margin-bottom: 40px;
+	}
+}
+
+section {
+	&#logo {
+		padding: 15px 0px ;
+		.container {
+			padding-top: 0px;
+			
+		}
 	}
 }

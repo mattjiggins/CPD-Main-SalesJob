@@ -1,20 +1,25 @@
 body {
-  font-family: "Skolar Regular",Palatino,Cambria,"Droid Serif",Georgia,"Times New Roman",Times,serif;
-  font-size: 18px; }
+  font-family: 'Trade Gothic Next W01', "Helvetica Neue", Helvetica, Arial;
+  font-size: 18px;
+  font-weight: 200; }
 
 h1, h2, h3, h4, h5, h6, .btn {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial; }
+  font-family: 'Trade Gothic Next W01', "Helvetica Neue", Helvetica, Arial; }
 
 h1, h2, h4, h5, h6 {
-  font-weight: 700;
-  font-style: normal; }
+  color: #002a5c;
+  font-weight: 800;
+  text-transform: uppercase; }
 
 h3 {
-  font-weight: 300;
-  font-style: normal; }
+  color: #002a5c;
+  font-weight: 300; }
+
+strong {
+  color: #002a5c; }
 
 .lead {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial;
+  font-family: 'Trade Gothic Next W01', "Helvetica Neue", Helvetica, Arial;
   font-weight: 100; }
 
 .box {
@@ -43,9 +48,21 @@ section {
   section.dark {
     background: #444;
     color: #fff; }
+    section.dark h1, section.dark h2, section.dark h3, section.dark h4, section.dark h5, section.dark h6 {
+      color: #fff; }
     section.dark a {
       color: #fff;
       text-decoration: underline; }
 
+a.btn {
+  text-decoration: none !important; }
+
+#welcome .container {
+  padding-top: 20px; }
 #welcome .lead {
   margin-bottom: 40px; }
+
+section#logo {
+  padding: 15px 0px; }
+  section#logo .container {
+    padding-top: 0px; }
